@@ -83,7 +83,6 @@ function FirebasePaginator(ref, defaults) {
             this.ref = ref.orderByKey();
 
             // If there it's forward pagination, use limitToFirst(pageSize + 1) and startAt(theLastKey)
-            debugger;
             if (isForward) {
                 // forward pagination
                 this.ref = this.ref.limitToFirst(pageSize + 1);
