@@ -1,5 +1,7 @@
 # FirebasePaginator
 
+The original had bugs and/or insufficiently document usage scenarios, so we (Bizboard) forked it for our purposes.
+
 FirebasePaginator is a JavaScript utility for Node.js and the browser that enables simple, declarative pagination for your Firebase collections. It's been developed for Firebase 3.0, but it should work for Firebase 2.0 projects as well.
 
 ### Dependencies
